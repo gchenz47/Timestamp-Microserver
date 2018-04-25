@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+   <head>
+      <title>Backend Challenges | Free Code Camp</title>
+      <link rel="shortcut icon" href="https://cdn.hyperdev.com/us-east-1%3A52a203ff-088b-420f-81be-45bf559d01b1%2Ffavicon.ico" type="image/x-icon"/>
+      <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css">
+   </head>
+
+   <body>
+      <div class="container">
+         <h1 class="header">API Basejump: Timestamp microservice</h1>
+         <blockquote>
+          <ul>
+            1) I can pass a string as a parameter, 
+            and it will check to see whether that string 
+            contains either a unix timestamp or a natural 
+            language date (example: January 1, 2016)
+          </ul>
+          <ul>
+            2) If it does, it returns both the Unix timestamp
+            and the natural language form of that date.
+          </ul>
+          <ul>
+            3) If it does not contain a date or Unix timestamp, 
+            it returns null for those properties.
+          </ul>
+        </blockquote>
+        
+        
+        <form>
+        <br>
+        <h3>Example Usage</h3>
+        <code>https://timestamp--.glitch.me/December%2015,%202015</code>
+        <br>
+        <code>https://timestamp--.glitch.me/1450137600</code>
+        <br>
+        <h3>Example Output</h3>
+        <code>{ "unix": 1450137600, "natural": "December 15, 2015" }</code>
+        </form>
+        
+      </div>
+     
+     <style>
+        body {
+          font-family: 'Roboto', sans-serif;
+          font-size: 16px;
+          color: #222;
+          background-color: #ECF0F1;
+          text-align: center;
+        }
+
+        code{
+          padding: 2px 4px;
+            font-size: 90%;
+            color: #c7254e;
+            background-color: #f9f2f4;
+            border-radius: 4px;
+        }
+        .container {
+          padding: 0;
+          margin-top: 40px;
+        }
+
+        .footer {
+          margin-top: 60px;
+        }
+
+        ol {
+          list-style-position: inside;
+        }
+        ul {
+          list-style-type: none;
+        }
+    </style>
+    
+   </body>
+
+</html>

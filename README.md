@@ -1,2 +1,1 @@
-# Timestamp-Microserver
-# Timestamp-Microserver
+Developed for a Free Code Camp project. Original project idea link: https://www.freecodecamp.com/challenges/timestamp-microservice
