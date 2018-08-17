@@ -12,4 +12,10 @@
     <PackageReference Include="MSTest.TestFramework" Version="1.2.1" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\SplitBillApp\SplitBillApp.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="input.txt" />
+  </ItemGroup>
 </Project>
